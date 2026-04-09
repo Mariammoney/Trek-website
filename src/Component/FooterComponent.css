@@ -1,0 +1,100 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-sides{
+    display: flex;
+    flex-direction: row;
+}
+.first-side{
+    display: flex;
+   padding-right: 80px;
+    gap: 80px;
+}
+.second-side{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.right-footer{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+   
+      gap: 8px;
+}
+
+
+.logo-text{
+    font-weight: 600;
+    font-family: sans-serif ;  
+}
+
+p{
+    font-weight: 400;
+    color: gray;
+    width: 180px;
+    line-height: 24px;
+    /* font-family: poppins sans-serif; */
+}
+
+
+.about ul {
+  list-style: none;
+  padding-left: 0;  
+  margin: 0;
+  color: gray;
+ line-height: 24px;
+ 
+}
+.support ul{
+     list-style: none;
+  padding-left: 0;  
+  margin: 0;
+  color: gray;
+  line-height: 24px;
+}
+.community ul{
+      list-style: none;
+  padding-left: 0;  
+  margin: 0;
+}
+.enter-email{
+ border-color: rgba(116, 110, 110, 0.781);
+padding: 10px 0px;
+border-radius: 90px;   
+color: gray;
+width: 255px;
+border:1px outline;
+padding-right: 120px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .footer-sides{
+        display: block;
+        
+    }
+    .first-side{
+        display: flex;
+        flex-direction: row;
+    }
+    .second-side{
+        gap: 137px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+   
+    .first-side{
+        display: block;
+    }
+    .second-side{
+        display: block;
+    }
+}
